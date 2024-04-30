@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(/1.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    /* width: 80%; */
+    padding: 10px;
+    background-color: rgba(5, 5, 5, 0.76);
+}
+
+#one,
+#tow,
+#three,
+#four,
+#five {
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    cursor: pointer;
+
+
+}
+
+#one {
+    background-image: url(/1.jpg);
+}
+
+#tow {
+    background-image: url(/2.jpg);
+}
+
+#three {
+    background-image: url(/3.jpg);
+}
+
+#four {
+    background-image: url(/4.jpg);
+}
+
+#five {
+    background-image: url(/5.jpg);
+}
